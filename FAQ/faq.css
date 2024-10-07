@@ -1,0 +1,77 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    font-family: "Poppins", sans-serif;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    }
+
+    .navbar a{
+        text-decoration: none;
+        color: white;
+        margin-right: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        }
+        
+        .navbar a:hover{
+            background-color: white;
+            color: black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            }
+        
+        .container .navbar{
+        display: flex;
+        background-color: black;
+        position: relative;
+        opacity: .7;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        text-align: center;
+        gap: 68%;
+        align-items: center;
+        }
+        
+        .icon{
+            margin-top: 10px;
+            font-size: 50px;
+            border: 10px double black ;
+            border-radius: 100%;
+            padding: 15px;
+            color: white;
+        }
+        
+        .container .navbar i{
+        font-size: 20px;
+        border: 5px double white;
+        margin: 0;
+        margin-left: 0;
+        text-align: left;
+        padding: 5px;
+        }
+
+.question h1{
+text-align: center;
+margin-top: 20px;
+}
+
+.question details p{
+font-size: 25px;
+background-color: rgba(38, 40, 43, 0.5);
+}
+
+.question details summary{
+font-size: 25px;
+}
+.question{
+margin: 0 300px;
+margin-top: 30px;
+box-shadow: 2px 2px 30px rgba(0,0,0,0.7);
+border-radius: 10px;
+padding: 10px 20px;
+background-color: rgba(0,0,0,0.5);
+color: white;
+}

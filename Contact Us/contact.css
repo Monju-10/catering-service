@@ -1,0 +1,160 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    font-family: "Poppins", sans-serif;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    }
+
+    .navbar a{
+        text-decoration: none;
+        color: white;
+        margin-right: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        }
+        
+        .navbar a:hover{
+            background-color: white;
+            color: black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            }
+        
+        .container .navbar{
+        display: flex;
+        background-color: black;
+        position: relative;
+        opacity: .7;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        text-align: center;
+        gap: 68%;
+        align-items: center;
+        }
+        
+        .icon{
+            margin-top: 10px;
+            font-size: 50px;
+            border: 10px double black ;
+            border-radius: 100%;
+            padding: 15px;
+            color: white;
+        }
+        
+        .container .navbar i{
+        font-size: 20px;
+        border: 5px double white;
+        margin: 0;
+        margin-left: 0;
+        text-align: left;
+        padding: 5px;
+        }
+
+.container2{
+margin-top: 80px;
+margin-left: 50px;
+width: 40%;
+border-right: 5px double black;
+padding-right: 50px;
+}
+
+.form{
+text-align: justify;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 17px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+button {
+    width: 20%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    font-size: 18px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+background-color:black;
+opacity: .7;
+color: white;
+}
+.adderssbar{
+    width: 45%;
+    padding: 12px 20px;
+    font-size: 17px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+#city, #postalcode, #zilla{
+margin-left: 53px;
+}
+
+.box{
+display: flex;
+gap: 35px;
+}
+
+.container-3{
+margin-top: 80px;
+margin-left: 20px;
+width: 40%;
+background-color: black;
+opacity: .7;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+border-radius: 10px;
+padding: 10px 10px 10px 10px;
+}
+
+.visit{
+margin-bottom: 80px;
+color: white;
+}
+
+.loc{
+display: flex;
+gap: 50px;
+color: white;
+}
+
+#mail, #phon{
+font-size: 40px;
+color: white;
+}
+#loc{
+font-size: 50px;
+color: white;
+}
+
+.mail, .phon{
+margin-top: 10px;   
+}
+
+.location-part{
+margin-top: 10px;
+}
+
+.map{
+margin-top: 50px;
+}
